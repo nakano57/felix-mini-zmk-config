@@ -1,0 +1,7 @@
+/ {
+    felix_layout_position_map: felix_layout_position_map {
+        compatible = "zmk,physical-layout-position-map";
+
+        complete;
+    };
+};
