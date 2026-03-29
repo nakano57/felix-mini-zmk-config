@@ -24,8 +24,8 @@ layers:
   - K
   - L
   - ;
-  - "'"
-  - LEFT SHIFT
+  - ''''
+  - LSHFT
   - Z
   - X
   - C
@@ -33,31 +33,31 @@ layers:
   - B
   - N
   - M
-  - ","
+  - ','
   - .
   - UP
   - /
-  - LEFT CONTROL
-  - LEFT ALT
-  - LEFT GUI
-  - FN
-  - {t: "英数", h: NUMBER}
+  - LCTRL
+  - LALT
+  - LGUI
+  - GLOBE
+  - {t: LANG2, h: NUMBER}
   - SPACE
-  - "["
-  - "]"
+  - '['
+  - ']'
   - SPACE
-  - {t: "かな", h: SYMBOL}
+  - {t: LANG1, h: SYMBOL}
   - ENTER
   - LEFT
   - DOWN
   - RIGHT
   SYMBOL:
   - ESC
-  - "!"
-  - "@"
-  - "#"
+  - '!'
+  - '@'
+  - '#'
   - $
-  - "%"
+  - '%'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -65,18 +65,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - TAB
-  - "^"
-  - "&"
-  - "*"
-  - "("
-  - ")"
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT SHIFT
+  - LSHFT
   - Z
   - X
   - C
@@ -88,16 +88,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT CONTROL
-  - LEFT ALT
-  - LEFT GUI
-  - FN
-  - {t: "英数", h: NUMBER}
+  - LCTRL
+  - LALT
+  - LGUI
+  - GLOBE
+  - {t: LANG2, h: NUMBER}
   - SPACE
-  - "["
+  - '['
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -109,9 +109,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - "1"
-  - "2"
-  - "3"
+  - '1'
+  - '2'
+  - '3'
   - _
   - +
   - BACKSPACE
@@ -121,11 +121,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - "4"
-  - "5"
-  - "6"
-  - "-"
-  - "="
+  - '4'
+  - '5'
+  - '6'
+  - '-'
+  - '='
   - '"'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -133,38 +133,38 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - "7"
-  - "8"
-  - "9"
-  - "*"
+  - '7'
+  - '8'
+  - '9'
+  - '*'
   - UP
-  - "'"
+  - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - "]"
+  - ']'
   - SPACE
-  - "0"
+  - '0'
   - ENTER
   - LEFT
   - DOWN
   - RIGHT
   SYS:
   - BT CLR
-  - {t: BT, h: "0"}
-  - {t: BT, h: "1"}
-  - {t: BT, h: "2"}
-  - {t: BT, h: "3"}
-  - {t: BT, h: "4"}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - CAPSLOCK
   - KP NUMLOCK
   - SCROLLLOCK
   - {t: ▽, type: trans}
-  - "&studio_unlock"
+  - '&studio_unlock'
   - OUT TOG
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -172,27 +172,25 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ""
-  - ""
-  - ""
-  - ""
-  - ""
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
-  - BOOT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -203,4 +201,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BOOT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&bootloader'
