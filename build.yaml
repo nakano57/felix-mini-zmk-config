@@ -5,13 +5,13 @@
 # pass flags to the build command, `snippet` to add a Zephyr snippet, and
 # `artifact-name` to assign a name to distinguish build outputs from each other:
 #
-# board: [ "nice_nano" ]
+# board: [ "nice_nano//zmk" ]
 # shield: [ "corne_left", "corne_right" ]
 # include:
 #   - board: bdn9_rev2
-#   - board: nice_nano
+#   - board: nice_nano//zmk
 #     shield: reviung41
-#   - board: nice_nano
+#   - board: nice_nano//zmk
 #     shield: corne_left
 #     snippet: studio-rpc-usb-uart
 #     cmake-args: -DCONFIG_ZMK_STUDIO=y
@@ -19,15 +19,15 @@
 #
 ---
 include:
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: felix_left nice_oled
     snippet: studio-rpc-usb-uart
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: felix_right nice_oled
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: settings_reset
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: felix_left nice_view_adapter nice_epaper
     snippet: studio-rpc-usb-uart
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: felix_right nice_view_adapter nice_epaper
