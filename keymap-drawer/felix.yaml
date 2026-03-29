@@ -52,7 +52,7 @@ layers:
   - DOWN
   - RIGHT
   SYMBOL:
-  - ESC
+  - {t: ▽, type: trans}
   - '!'
   - '@'
   - '#'
@@ -64,7 +64,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - TAB
+  - {t: ▽, type: trans}
   - ^
   - '&'
   - '*'
@@ -76,25 +76,25 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LCTRL
-  - LALT
-  - LGUI
-  - GLOBE
-  - {t: LANG2, h: NUMBER}
-  - SPACE
-  - '['
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -114,7 +114,7 @@ layers:
   - '3'
   - _
   - +
-  - BACKSPACE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -137,7 +137,7 @@ layers:
   - '8'
   - '9'
   - '*'
-  - UP
+  - {t: ▽, type: trans}
   - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -146,13 +146,13 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ']'
-  - SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '0'
-  - ENTER
-  - LEFT
-  - DOWN
-  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   SYS:
   - BT CLR
   - {t: BT, h: '0'}
