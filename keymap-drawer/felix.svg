@@ -285,7 +285,9 @@ path.combo {
 </g>
 <g transform="translate(196, 196)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">GLOBE</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.9em">Alt+Ctl</tspan><tspan x="0" dy="1.2em">+P</tspan>
+</text>
 <a href="#SYS">
 <text x="0" y="24" class="key hold layer-activator">SYS</text>
 </a></g>
