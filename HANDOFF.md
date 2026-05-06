@@ -5,7 +5,7 @@
 - Helix ベースの無線分割キーボード「Felix」の ZMK ファームウェア設定
 - 製造元: beekeeb
 - コントローラ: nice!nano v2 (nRF52840)
-- ディスプレイ: SSD1306 OLED (128×32) または nice!view e-paper
+- ディスプレイ: nice!view e-paper
 - RGB: WS2812 × 10個/片側（現在無効）
 - 元リポジトリ: https://github.com/Eloy98/zmk-for-felix.git
 - 新リポジトリ: https://github.com/nakano57/felix-mini-zmk-config.git
