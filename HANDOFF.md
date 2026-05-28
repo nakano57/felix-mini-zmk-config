@@ -49,7 +49,7 @@ Row 4 を削除するだけで 4×6+1 が実現可能と分析で確定。列の
 ESC     Q      W      E      R      T               Y      U      I      O      P      BKSP
 TAB     A      S      D      F      G               H      J      K      L      ;:     '"
 SHIFT   Z      X      C      V      B               N      M      ,<     .>     ↑      /?
-CTRL    OPT    CMD    FN     ≡/英数  SPC    [{       ]}     SPC    0/かな  ENTER  ←      ↓      →
+CTRL    OPT    CMD    Ctl+S/FN  ≡/英数  SPC    [{       ]}     SPC    0/かな  ENTER  ←      ↓      →
 ```
 
 ### Layer 1: SYMBOL（0/かな長押しで有効 — 左半分の記号）
@@ -58,7 +58,7 @@ CTRL    OPT    CMD    FN     ≡/英数  SPC    [{       ]}     SPC    0/かな 
 ESC     !      @      #      $      %               trans  trans  trans  trans  trans  trans
 TAB     ^      &      *      (      )               trans  trans  trans  trans  trans  trans
 SHIFT   Z      X      C      V      B               trans  trans  trans  trans  trans  trans
-CTRL    OPT    CMD    FN     ≡/英数  SPC    [{       trans  trans  trans  trans  trans  trans  trans
+CTRL    OPT    CMD    Ctl+S/FN  ≡/英数  SPC    [{       trans  trans  trans  trans  trans  trans  trans
 ```
 
 右半分は全て transparent（Layer 0 がそのまま透過）。
@@ -189,7 +189,7 @@ https://github.com/nakano57/felix-mini-zmk-config/actions
 
 1. **Layer 1 (SYMBOL) の右半分**: 現在 transparent — 必要に応じて記号を追加
 2. **Layer 2 (NUMBER) の左半分**: 現在 transparent — 必要に応じてファンクションキー等を追加
-3. **Layer 3 (SYS) のアクセス方法**: 現在未定義 — コンボやレイヤー同時押し等で設定が必要
+3. **Layer 3 (SYS) のアクセス方法**: `Ctl+S/FN` キー長押しでアクセス
 4. **keymap-drawer**: `keymap-drawer/felix.yaml` と `felix.svg` は旧レイアウト — push 後の CI で自動再生成される
 5. **felix.json**: QMK 互換の物理レイアウト JSON — keymap-drawer 用に 50 キーに更新が必要かもしれない
 6. **シールドデフォルトキーマップ**: `boards/shields/felix/felix.keymap` は旧 64 キーのまま — ZMK Studio 使用時に問題になる可能性あり（config/felix.keymap が優先されるので通常は問題なし）
